@@ -34,4 +34,4 @@ if(ENABLE_TESTS)
 endif()
 
 # Add install options
-include(Install)
+include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/Install.cmake)
